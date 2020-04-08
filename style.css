@@ -53,12 +53,15 @@
 }
 .klava .capslock,.klava .shift, .klava .backspace, .klava .del, .klava .tab, .klava .left, .klava .right, .klava .top, .klava .left, .klava .bottom, .klava .shift_small, .klava .win, .klava .alt,
 .klava .enter, .klava .ctrl  {
-color: #a3c2d6;
-background: linear-gradient(to top, #5bc1fc, #2ba5ec);
-
+    color: #c3ddef;
+    background: linear-gradient(to top, #42d3f7, #08b7e5);
 
 }
-.klava .enter {
+.klava .capslock:hover,.klava .shift:hover, .klava .backspace:hover, .klava .del:hover, .klava .tab:hover, .klava .left:hover, .klava .right:hover, .klava .top:hover, .klava .left:hover, .klava .bottom:hover, .klava .shift_small:hover, .klava .win:hover, .klava .alt:hover, .klava .enter:hover, .klava .ctrl:hover {
+    color: white; 
+    background-color: #3dc3f8;
+}
+ .klava .enter {
     width: 86px;
 }
 
